@@ -2,7 +2,7 @@
 # DAPA (Dynamic Academic Performance/Planner Assistant)
 
 Overview
-DAPA is my small academic-assistant project where I built a simple tool that helps students calculate their course marks, predict CGPA, and plan their study schedule.
+DAPA is my small academic assistant project where I built a simple tool that helps students calculate their course marks, predict CGPA, and plan their study schedule.
 I made this mainly to solve my own confusion about how marks actually add up, and also to help classmates who struggle with grade prediction.
 
 Features
@@ -22,7 +22,7 @@ Study hour planner based on difficulty + credits + performance
 
 Export records (JSON/CSV)
 
-Stores all data in a simple, easy-to-understand structure
+Stores all data in a simple, easy to understand structure
 
 Tech Used
 
@@ -44,7 +44,7 @@ A folder named DAPA
 
 All .py files (main.py, planner.py, data_manager.py, visualizer.py) inside that folder
 
-No special dependencies required — everything runs with standard Python
+No special dependencies required everything runs with standard Python
 
 How to Run It on vs code
 Step 1
