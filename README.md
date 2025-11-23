@@ -1,5 +1,5 @@
 
-DAPA (Dynamic Academic Performance/Planner Assistant)
+# DAPA (Dynamic Academic Performance/Planner Assistant)
 
 Overview
 DAPA is my small academic-assistant project where I built a simple tool that helps students calculate their course marks, predict CGPA, and plan their study schedule.
@@ -92,7 +92,7 @@ main.py
 using "%writefile" to save them. Example:
 
 %%writefile DAPA/data_manager.py
-# paste code here
+ paste code here
 
 After saving all files, move into the folder:
 
