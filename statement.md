@@ -4,7 +4,7 @@
 Problem Statement
 
 The goal of this project is to create a simple, lightweight academic assistance system that helps students understand how their marks add up across assignments, attendance, mid-semester tests, and final exams. Most students struggle to predict their final grades or calculate CGPA on their own. DAPA solves this by giving one clean place where students can add their course details, enter their marks, and instantly see their academic standing.
-It is designed to remove confusion, make academic planning easier, and help students take better control of their performance. The entire system is built using basic Python and simple data handling—making it easy to learn from and extend further.
+It is designed to remove confusion, make academic planning easier, and help students take better control of their performance. The entire system is built using basic Python and simple data handling making it easy to learn from and extend further.
 
 Scope of the Project
 
