@@ -1,7 +1,4 @@
 
-
-
-
 class Visualizer:
     def __init__(self, dm, planner):
         self.dm = dm
@@ -42,5 +39,6 @@ class Visualizer:
             print(f"- {code}: Attendance {att}% → Attendance Marks: {given}")
 
         print("\n(End of Text Insights)")
+
 
 
