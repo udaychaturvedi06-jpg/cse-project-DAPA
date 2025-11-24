@@ -80,10 +80,10 @@ class DataManager:
         return marks
 
     def export_summary(self, out_json='DAPA/dapa_summary.json', out_csv='DAPA/dapa_summary.csv'):
-        # write JSON
+        
         with open(out_json, 'w') as f:
             json.dump(self.data, f, indent=2)
-        # write CSV
+      
         import csv
         with open(out_csv, 'w', newline='') as f:
             writer = csv.writer(f)
@@ -95,3 +95,4 @@ class DataManager:
                                  m.get('attendance_percent'), m.get('attendance_marks'),
                                  m.get('mid_obtained'), m.get('final_obtained')])
         return out_json, out_csv
+
