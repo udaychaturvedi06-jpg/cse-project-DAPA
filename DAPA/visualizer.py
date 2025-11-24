@@ -1,10 +1,6 @@
 
 
 
-# visualizer.py
-
-# Text-based insights (NO PLOTTING)
-# Shows useful analysis instead of graphs.
 
 class Visualizer:
     def __init__(self, dm, planner):
@@ -47,3 +43,4 @@ class Visualizer:
             print(f"- {code}: Attendance {att}% → Attendance Marks: {given}")
 
         print("\n(End of Text Insights)")
+
