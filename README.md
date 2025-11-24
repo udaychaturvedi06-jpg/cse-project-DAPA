@@ -51,6 +51,7 @@ Step 1
 
 Create a folder named DAPA on your computer.
 Paste all .py files inside it.
+(THE DAPA FOLDER ON THIS "REPOSITORY" CONTAINS ALL .py FILES)
 
 Step 2
 
