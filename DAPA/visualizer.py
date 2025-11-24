@@ -16,7 +16,6 @@ class Visualizer:
         print("\n====== COURSE PERFORMANCE INSIGHTS ======\n")
         details = self.planner.compute_cgpa()['details']
 
-        # 1. Best and Weakest Course
         sorted_courses = sorted(details.items(), key=lambda x: x[1]['total'], reverse=True)
 
         best = sorted_courses[0]
@@ -25,7 +24,7 @@ class Visualizer:
         print(f"Highest scoring course : {best[0]} ({best[1]['total']} marks)")
         print(f"Weakest scoring course : {worst[0]} ({worst[1]['total']} marks)\n")
 
-        # 2. Difficulty vs Performance
+        
         print("Difficulty → Performance analysis:")
         for code, info in details.items():
             diff = courses[code]['difficulty']
@@ -33,7 +32,7 @@ class Visualizer:
             status = "GOOD" if total >= 70 else "AVERAGE" if total >= 50 else "NEEDS WORK"
             print(f"- {code}: Difficulty={diff} | Score={total} | Status={status}")
 
-        # 3. Attendance summary
+       
         print("\nAttendance summary:")
         for code in courses:
             marks = self.dm.get_marks(code)
@@ -43,4 +42,5 @@ class Visualizer:
             print(f"- {code}: Attendance {att}% → Attendance Marks: {given}")
 
         print("\n(End of Text Insights)")
+
 
